@@ -1,10 +1,18 @@
-AQUI VAN LAS RESPUESTAS
-1.exec* EXPLICO SU FUNCIONAMIENTO https://en.wikipedia.org/wiki/Exec_(system_call).
-2.No se tienen permisos de ejecución. Otorgando al usuario permisos de ejecución. *Utilizar bash.
-3.Salida:
+1. Busca la llamada al sistema que se emplea para ejecutar un script. Y explica su funcionamiento.
+ exec* EXPLICO SU FUNCIONAMIENTO https://en.wikipedia.org/wiki/Exec_(system_call).
+  
+2. ¿A qué se debe el error?, Y, ¿Cómo podría arreglarse el problema? 
+ No se tienen permisos de ejecución. Otorgando al usuario permisos de ejecución. *Utilizar bash.
+
+3. ¿Cuál es la salida del script segundo_script.sh? ¿Por qué aparecen 2 líneas en vez de una?
+ Salida:
   hola
   mundo
-  Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del bucle (y echo introduce un salto de linea al final).
-  4.*Salida.
-  5.Se produce el error obenido al tratar de ejecutar cat sobre un directorio.
+ Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del    bucle (y echo introduce un salto de linea al final).
+  
+  4. Añade una nueva variable final_cadena que contenga la cadena: “, como estas?” e imprímela dentro del mismo comando echo. 
+   *Añadir salida obtenida.
+   
+  5. ¿Si añadimos un subdirectorio en el directorio actual se produce algún error? 
+   Se produce el error obenido al tratar de ejecutar cat sobre un directorio.
    
