@@ -1,1 +1,10 @@
 AQUI VAN LAS RESPUESTAS
+1.exec* EXPLICO SU FUNCIONAMIENTO https://en.wikipedia.org/wiki/Exec_(system_call).
+2.No se tienen permisos de ejecución. Otorgando al usuario permisos de ejecución. *Utilizar bash.
+3.Salida:
+  hola
+  mundo
+  Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del bucle (y echo introduce un salto de linea al final).
+  4.*Salida.
+  5.Se produce el error obenido al tratar de ejecutar cat sobre un directorio.
+   
