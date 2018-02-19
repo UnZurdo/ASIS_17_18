@@ -1,3 +1,8 @@
+Autores                   NIA
+===================================
+Jorge Fernandez Muñoz    721529
+Daniel Fraile Belmonte   721525
+
 1. Busca la llamada al sistema que se emplea para ejecutar un script. Y explica su funcionamiento.
  exec* EXPLICO SU FUNCIONAMIENTO https://en.wikipedia.org/wiki/Exec_(system_call).
   
