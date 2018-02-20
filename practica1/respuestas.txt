@@ -14,7 +14,8 @@ Daniel Fraile Belmonte   721525
 Salida:
    hola
    mundo
-Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del    bucle (y echo introduce un salto de linea al final).
+Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del
+bucle (y echo introduce un salto de linea al final).
   
 4. Añade una nueva variable final_cadena que contenga la cadena: “, como estas?” e imprímela dentro del mismo comando echo. 
 Salida:
