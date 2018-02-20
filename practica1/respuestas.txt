@@ -15,9 +15,9 @@ Daniel Fraile Belmonte   721525
   mundo
  Aparecen 2 líneas porque al no estar entre comillas el espacio se interpreta como la variable IFS lo que ejecuta dos iteraciones del    bucle (y echo introduce un salto de linea al final).
   
-  4. Añade una nueva variable final_cadena que contenga la cadena: “, como estas?” e imprímela dentro del mismo comando echo. 
+4. Añade una nueva variable final_cadena que contenga la cadena: “, como estas?” e imprímela dentro del mismo comando echo. 
    *Añadir salida obtenida.
    
-  5. ¿Si añadimos un subdirectorio en el directorio actual se produce algún error? 
+5. ¿Si añadimos un subdirectorio en el directorio actual se produce algún error? 
    Se produce el error obenido al tratar de ejecutar cat sobre un directorio.
    
