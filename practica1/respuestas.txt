@@ -7,7 +7,9 @@ Daniel Fraile Belmonte   721525
  exec* EXPLICO SU FUNCIONAMIENTO https://en.wikipedia.org/wiki/Exec_(system_call).
   
 2. ¿A qué se debe el error?, Y, ¿Cómo podría arreglarse el problema? 
- No se tienen permisos de ejecución. Otorgando al usuario permisos de ejecución. *Utilizar bash.
+ El error se debe a la falta de permisos de ejecución del fichero al crearlo. Se podría solucionar otorgando al usuario estos 
+ permisos, o podriamos ejecutar el script
+ con el comando bash <fichero>.
 
 3. ¿Cuál es la salida del script segundo_script.sh? ¿Por qué aparecen 2 líneas en vez de una?
  Salida:
