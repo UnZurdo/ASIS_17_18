@@ -1,6 +1,6 @@
 #!/bin/bash
-final_cadena=", como estas?\n"
+final_cadena=", como estas?"
 for i in hola mundo
 do
-	echo "${i}${final_cadena}"
+	echo -n "${i}${final_cadena}"
 done
