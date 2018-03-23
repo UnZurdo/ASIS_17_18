@@ -1,3 +1,4 @@
+
 #!/bin/bash
 directorios=`find /home/"$USER"/bin*/ -type d 2> /dev/null`
 path=""
@@ -14,7 +15,7 @@ ejecutables=`find -maxdepth 1 -mindepth 1 -type f -printf '%f\n'`
 ncopias=0
 for i in $ejecutables; do
   cp ./"$i" "$path"
-  echo "./"$i" ha sido copiado a "$path""
+  echo "./"$i" ha sido copiado a "$path"" | grep -o ".*[^/]"
   ncopias=$((ncopias+1))
 done
 echo "Se han copiado "$ncopias" archivos"
