@@ -5,12 +5,12 @@ path=""
 if [ -z "$directorios" ]
 then
   path=`mktemp -d /home/"$USER"/binXXX`
-  echo "Se ha creado el directorio "$path""
+  echo "Se ha creado el directorio "$path"" | grep -o ".*[^/]"
 else
   path=`stat -c "%n=%Y" $directorios | sort -n -t = -k 2 | grep -o "\/.*\/" | head -n 1`
 fi
 
-echo "Directorio destino de copia: "$path""
+echo "Directorio destino de copia: "$path"" | grep -o ".*[^/]"
 ejecutables=`find -maxdepth 1 -mindepth 1 -type f -printf '%f\n'`
 ncopias=0
 for i in $ejecutables; do
