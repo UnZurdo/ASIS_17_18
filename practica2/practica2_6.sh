@@ -14,7 +14,7 @@ echo "Directorio destino de copia: $path"
 copiados=`cp -v ./*.* "$path"`
 ncopias=0
 for i in $copiados; do
-  copiado=`echo "$i" | grep -o "\.\/.*\..*"`
+  copiado=`echo "$i" | grep -o "\.\/.*\..*" | tr -d [=\'=]`
   #echo "Copiado vale: $copiado"
   if [ ! -z "$copiado" ]
   then
@@ -23,4 +23,3 @@ for i in $copiados; do
   fi
   done
   echo "Se han copiado $ncopias archivos"
-#rm -r "$path"
