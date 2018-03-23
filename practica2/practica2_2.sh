@@ -1,7 +1,8 @@
 #!/bin/bash
+#Jorge Fernandez (721529) y Daniel Fraile (721525)
 for argumento in "$@"
 do
-    if [ -e "$argumento" ]
+    if [ -f "$argumento" ]
     then
         more "$argumento"
     else

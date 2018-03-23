@@ -1,4 +1,5 @@
 #!/bin/bash
+#Jorge Fernandez (721529) y Daniel Fraile (721525)
 echo -n "Introduzca el nombre del fichero: "
 read nombre
 if [ -e "$nombre" ]
